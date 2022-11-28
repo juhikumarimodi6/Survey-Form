@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+text-align:center;
+}
+form>input,select {
+margin: 10px;
+}
+</style>
+</head>
+<body>
+<form>
+<h1>Employee Interests Survey form</h1>
+
+<label for="name">Enter your name:</label>
+<input type="text" name="name" ><br>
+
+<label for="dept">Enter your department:</label>
+<input type="text" name="dept"><br>
+
+<label for="description">Tell us a little about yourself:</label>
+<textarea name="description"  rows="5" cols="25"></textarea><br
+
+<label for="exercise">Do you exercise at home?</label>
+<input type="radio" id="yes" name="exercise" value="Yes">
+<label for="yes">Yes</label>
+<input type="radio" id="no" name="exercise" value="No">
+<label for="no">No</label><br>
+
+<label for="favourite_topic">How do you like to read about your favourite topics?</label><br>
+<input type="checkbox" id="books" value="Books">
+<label for="books">Books</label>
+<input type="checkbox" id="resources" value="Online resources">
+<label for="resources" >Online resources</label>
+<input type="checkbox" id="phoneApps" value="Phone apps">
+<label for="phoneApps">Phone apps</label>
+<input type="checkbox" id="magazines" value="Magazines">
+<label for="magazines">Magazines</label><br>
+
+<label for="genre">What genre of movies do you like?</label>
+<select id="genre" name="genre">
+	<option value="comedy">Comedy</option>
+	<option value="action">Action</option>
+	<option value="drama">Drama</option>
+	<option value="suspense">Suspense</option>
+	<option value="thriller">Thriller</option>
+</select><br>
+
+<input type="submit" value="Submit form">
+</form>
+</body>
+</html>
